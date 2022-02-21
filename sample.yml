@@ -1,5 +1,7 @@
-yamlFile.write('''\
----
-sample: true
-Groovy: "Rocks!"
-''')
+def text = """
+port: 8080
+host: localhost
+db:
+  port: 5437
+  host: db.localhost
+"""
