@@ -1,0 +1,5 @@
+yamlFile.write('''\
+---
+sample: true
+Groovy: "Rocks!"
+''')
