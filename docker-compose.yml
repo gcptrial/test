@@ -1,7 +1,16 @@
-"""
-port: 8080
-host: localhost
-db:
-  port: 5437
-  host: db.localhost
-"""
+---
+application: "Sample App"
+users:
+- name: "mrhaki"
+  likes:
+  - Groovy
+  - Clojure
+  - Java
+- name: "Hubert"
+  likes:
+  - Apples
+  - Bananas
+connections:
+- "WS1"
+- "WS2"
+'''
