@@ -1,4 +1,4 @@
-def text = """
+"""
 port: 8080
 host: localhost
 db:
